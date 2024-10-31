@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f3f3;
+}
+
+.logo {
+  width: 252px;
+  height: 32px;
+  margin: 32px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.content {
+  margin: 24px;
+  max-width: 100%;
+}
+
+@media (min-width: 800px) {
+  .content {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+}
+
+.content__title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+
+.content__paragraph {
+  margin-bottom: 16px;
+}
+
+.content__signature {
+  text-align: right;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 24px 0;
+}
+
+.box--white {
+  background-color: #ffffff;
+}
+
+.box__title {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.box__subtitle {
+  font-weight: bold;
+  display: block;
+  margin-top: 16px;
+}
+
+.box__paragraph {
+  margin-bottom: 16px;
+}
+
+.box__paragraph--no-margin {
+  margin-top: 0;
+}
+
+.box__indented {
+  padding-inline-start: 1rem;
+}
+
+.list {
+  padding-left: 1.5rem;
+}
+
+.list--no-margin-top {
+  margin-top: 0;
+}
